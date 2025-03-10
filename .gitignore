@@ -1,0 +1,18 @@
+# Ignore the virtual environment
+venv/
+
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore API key file
+config.py
+
+# Ignore system-specific files
+.DS_Store  # MacOS
+Thumbs.db   # Windows
+
+# Ignore log files
+*.log
